@@ -55,8 +55,7 @@ a {
 }
 
 .menu-links li {
-  font-family: inherit;
-  font-size: inherit;
+  font-size: 15px;
   font-weight: 500;
   color: #999999;
   padding: 8px 30px;
