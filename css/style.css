@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #010101;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar .material-symbols-outlined {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  height: 80px;
+  background-color: hsl(0, 0%, 10%);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo a {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-left: 10px;
+}
+
+.menu {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu-links {
+  border-right: 1px solid #999999;
+  padding-inline: 24px;
+}
+
+.menu ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.menu-links li {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  color: #999999;
+  padding: 8px 30px;
+  cursor: pointer;
+}
+
+.dropdown-menu li {
+  font-weight: 500;
+  color: #999999;
+  padding: 8px 30px;
+  cursor: pointer;
+}
+
+.menu-links ul li a {
+  color: #999999;
+}
+
+.dropdown-menu ul li a {
+  color: #999999;
+}
+
+.menu-links ul li a:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+.dropdown-menu ul li a:hover {
+  color: white;
+  transition: 0.4s;
+}
+
+.dropdown-menu {
+  display: none;
+  border-radius: 15px;
+  transition: all .2s linear
+}
+
+.menu-links ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  background-color: hsl(0, 0%, 10%);
+  margin-top: 8px;
+}
+
+.menu-links ul li:hover .dropdown-menu ul {
+  display: block;
+  margin-top: 5px;
+}
+
+.menu-links ul li:hover .dropdown-menu ul li {
+  text-align: center;
+  padding: 10px;
+  width: 70px;
+  background: transparent;
+  border-radius: 0%;
+}
+
+.log-in {
+  font-weight: 500;
+  padding: 8px 18px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 10px;
+  border: 2px solid #0aa5ff;
+  transition: 0.2s;
+}
+
+.log-in:hover {
+  background-color: #0aa5ff;
+  color: white;
+}
