@@ -82,9 +82,12 @@ a {
   transition: 0.2s;
 }
 
+.menu-links ul li a:active {
+  color: white;
+}
+
 .dropdown-menu ul li a:hover {
   color: white;
-  transition: 0.4s;
 }
 
 .dropdown-menu {
@@ -102,6 +105,7 @@ a {
 .menu-links ul li:hover .dropdown-menu ul {
   display: block;
   margin-top: 5px;
+  margin-left: -35px;
 }
 
 .menu-links ul li:hover .dropdown-menu ul li {
@@ -161,6 +165,138 @@ a {
   border-radius: 15px;
 }
 
+.programmes h1{
+  color: #ffffff;
+  align-content: center;
+  margin-left: 480px;
+  margin-right: 520px;
+  border-radius: 10px;
+  margin-top: 70px;
+  border: 1px solid rgb(192, 139, 139);
+  box-shadow: rgba(255, 121, 121, 0.24) 0px 6px 12px;
+}
+
+.programmes .information{
+  color: #ffffff;
+  margin-left: 70px;
+  margin-right: 90px;
+}
+
+.container1{
+  padding: 12px;
+  margin-top: 30px;
+  margin-left: 43px;
+  margin-right: 905px;
+  border: 1px solid white;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container1 img{
+  margin-top: 5px;
+  margin-left: 130px;
+}
+
+.contant1 h3, p{
+  text-align: center;
+}
+
+.contant1 a{
+  color: #ffffff;
+}
+
+.container2{
+  padding: 12px;
+  margin-top: -280px;
+  margin-left: 473px;
+  margin-right: 475px;
+  border: 1px solid white;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container2 img{
+  margin-top: 5px;
+  margin-left: 130px;
+}
+
+.contant2 h3, p{
+  text-align: center;
+}
+
+.contant2{
+  color: #ffffff;
+}
+
+.container3{
+  padding: 12px;
+  margin-top: -280px;
+  margin-left: 905px;
+  margin-right: 43px;
+  border: 1px solid white;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container3 img{
+  margin-top: 5px;
+  margin-left: 130px;
+}
+
+.contant3 h3, p{
+  text-align: center;
+}
+
+.contant3{
+  color: #ffffff;
+}
+
+.container4{
+  padding: 12px;
+  margin-top: 32px;
+  margin-left: 255px;
+  margin-right: 693px;
+  border: 1px solid white;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+} 
+
+.container4 img{
+  margin-top: 5px;
+  margin-left: 130px;
+}
+
+.contant4 h3, p{
+  text-align: center;
+}
+
+.contant4{
+  color: #ffffff;
+}
+
+.container5{
+  padding: 12px;
+  margin-top: -280px;
+  margin-left: 675px;
+  margin-right: 273px;
+  border: 1px solid white;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+} 
+
+.container5 img{
+  margin-top: 5px;
+  margin-left: 130px;
+}
+
+.contant5 h3, p{
+  text-align: center;
+}
+
+.contant5{
+  color: #ffffff;
+}
+
+.contant5 img{
+  height: 110px;
+  width: 110px;
+}
+
 footer {
   background-color: black;
   min-width: 300px;
@@ -212,6 +348,10 @@ footer {
 }
 
 .footer-columns ul a:hover {
+  text-decoration: underline;
+}
+
+.Location a:hover {
   text-decoration: underline;
 }
 
@@ -277,6 +417,7 @@ footer {
   width: 35px;
   height: 24px;
   transition: all 0.2s ease-in-out;
+  color: #ffffff;
 }
 
 .social-links img:hover {
