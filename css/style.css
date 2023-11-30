@@ -127,45 +127,43 @@ a {
   font-family: inherit;
   font-size: inherit;
   border-radius: 10px;
-  border: 2px solid #0aa5ff;
+  border: 2px solid #00a2ff;
   transition: 0.2s;
 }
 
 .log-in:hover {
   background-color: #0aa5ff;
-  color: white;
 }
 
-.bgimage img{
+.bgimage img {
   width: 100%;
-  height: 550px;
 }
 
-.head h1{
+.head h1 {
   color: white;
-  margin-top: 10px;
+  margin-top: 2%;
   margin-left: 5%;
 }
 
-.info p{
+.info p {
   color: white;
   font-size: 16px;
   margin-top: 0;
   margin-left: 5%;
   margin-right: 35%;
-  line-height: 35px;
+  line-height: 230%;
 }
 
-.img img{
+.img img {
   display: flex;
   height: 300px;
   margin-top: -24%;
   margin-left: 65%;
   border: 2px solid white;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
-.programmes h1{
+.programmes h1 {
   color: #ffffff;
   align-content: center;
   margin-left: 480px;
@@ -176,35 +174,36 @@ a {
   box-shadow: rgba(255, 121, 121, 0.24) 0px 6px 12px;
 }
 
-.programmes .information{
+.programmes .information {
   color: #ffffff;
   margin-left: 70px;
   margin-right: 90px;
 }
 
-.container1{
-  padding: 12px;
-  margin-top: 30px;
+.container1 {
+  padding: 1%;
+  margin-top: 3%;
   margin-left: 43px;
   margin-right: 905px;
   border: 1px solid white;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
 }
 
-.container1 img{
+.container1 img {
   margin-top: 5px;
   margin-left: 130px;
 }
 
-.contant1 h3, p{
+.contant1 h3,
+p {
   text-align: center;
 }
 
-.programmes a{
+.programmes a {
   color: #ffffff;
 }
 
-.container2{
+.container2 {
   padding: 12px;
   margin-top: -280px;
   margin-left: 473px;
@@ -213,20 +212,21 @@ a {
   box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
 }
 
-.container2 img{
+.container2 img {
   margin-top: 5px;
   margin-left: 130px;
 }
 
-.contant2 h3, p{
+.contant2 h3,
+p {
   text-align: center;
 }
 
-.contant2{
+.contant2 {
   color: #ffffff;
 }
 
-.container3{
+.container3 {
   padding: 12px;
   margin-top: -280px;
   margin-left: 905px;
@@ -235,64 +235,67 @@ a {
   box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
 }
 
-.container3 img{
+.container3 img {
   margin-top: 5px;
   margin-left: 130px;
 }
 
-.contant3 h3, p{
+.contant3 h3,
+p {
   text-align: center;
 }
 
-.contant3{
+.contant3 {
   color: #ffffff;
 }
 
-.container4{
+.container4 {
   padding: 12px;
   margin-top: 32px;
   margin-left: 255px;
   margin-right: 693px;
   border: 1px solid white;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
-} 
+}
 
-.container4 img{
+.container4 img {
   margin-top: 5px;
   margin-left: 130px;
 }
 
-.contant4 h3, p{
+.contant4 h3,
+p {
   text-align: center;
 }
 
-.contant4{
+.contant4 {
   color: #ffffff;
 }
 
-.container5{
+.container5 {
   padding: 12px;
   margin-top: -280px;
   margin-left: 675px;
   margin-right: 273px;
   border: 1px solid white;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
-} 
+}
 
-.container5 img{
+.container5 img {
   margin-top: 5px;
   margin-left: 130px;
 }
 
-.contant5 h3, p{
+.contant5 h3,
+p {
   text-align: center;
 }
 
-.contant5{
+.contant5 {
   color: #ffffff;
 }
 
-.contant5 img{
+.contant5 img {
   height: 110px;
   width: 110px;
 }
@@ -320,7 +323,7 @@ footer {
   width: 100%;
   height: 6px;
   background: linear-gradient(90deg, #5da8ff,
-          #605dff 50%, #ad63f6);
+      #605dff 50%, #ad63f6);
 }
 
 .footer-columns {
@@ -370,14 +373,15 @@ footer {
   min-width: 225px;
 }
 
-.Location p{
-  color: white;
-}
-.Location a{
+.Location p {
   color: white;
 }
 
-.Location{
+.Location a {
+  color: white;
+}
+
+.Location {
   max-width: 30px;
 }
 
