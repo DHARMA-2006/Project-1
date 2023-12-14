@@ -139,169 +139,95 @@ a {
   color: white;
 }
 
-.bgimage img {
-  width: 100%;
+.headline {
+  margin: 0;
+  padding: 0;
+  height: 150px;
+  background-color: #00a2ff;
 }
 
-.head h1 {
+.headline p {
+  font-size: 50px;
+  padding-left: 80px;
+  padding-top: 40px;
+  font-weight: 600;
   color: white;
-  margin-top: 2%;
-  margin-left: 5%;
 }
 
-.info p {
-  color: white;
-  font-size: 16px;
-  margin-top: 0;
-  margin-left: 5%;
-  margin-right: 35%;
-  line-height: 230%;
+.image {
+  height: 1450px;
 }
 
-.img img {
-  display: flex;
+.image1 img {
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 450px;
   height: 300px;
-  margin-top: -24%;
-  margin-left: 65%;
   border: 2px solid white;
-  border-radius: 20px;
-}
-
-.programmes h1 {
-  color: #ffffff;
-  align-content: center;
-  margin-left: 480px;
-  margin-right: 520px;
   border-radius: 10px;
-  margin-top: 70px;
-  border: 1px solid rgb(192, 139, 139);
-  box-shadow: rgba(255, 121, 121, 0.24) 0px 6px 12px;
 }
 
-.programmes .information {
-  color: #ffffff;
-  margin-left: 70px;
-  margin-right: 90px;
+.image2 img {
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 450px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
-.container1 {
-  padding: 1%;
-  margin-top: 3%;
-  margin-left: 43px;
-  margin-right: 905px;
-  border: 1px solid white;
-  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+.image3 img {
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 450px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
-.container1 img {
-  margin-top: 5px;
-  margin-left: 130px;
+.image4 img {
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 450px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
-.contant1 h3,
-p {
-  text-align: center;
+.image5 img {
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 450px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
-.programmes a {
-  color: #ffffff;
+.image6 img {
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 450px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
-.container2 {
-  padding: 12px;
-  margin-top: -280px;
-  margin-left: 473px;
-  margin-right: 475px;
-  border: 1px solid white;
-  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+.image7 img {
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 450px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
-.container2 img {
-  margin-top: 5px;
-  margin-left: 130px;
-}
-
-.contant2 h3,
-p {
-  text-align: center;
-}
-
-.contant2 {
-  color: #ffffff;
-}
-
-.container3 {
-  padding: 12px;
-  margin-top: -280px;
-  margin-left: 905px;
-  margin-right: 43px;
-  border: 1px solid white;
-  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
-}
-
-.container3 img {
-  margin-top: 5px;
-  margin-left: 130px;
-}
-
-.contant3 h3,
-p {
-  text-align: center;
-}
-
-.contant3 {
-  color: #ffffff;
-}
-
-.container4 {
-  padding: 12px;
-  margin-top: 32px;
-  margin-left: 255px;
-  margin-right: 693px;
-  border: 1px solid white;
-  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
-}
-
-.container4 img {
-  margin-top: 5px;
-  margin-left: 130px;
-}
-
-.contant4 h3,
-p {
-  text-align: center;
-}
-
-.contant4 {
-  color: #ffffff;
-}
-
-.container5 {
-  padding: 12px;
-  margin-top: -280px;
-  margin-left: 675px;
-  margin-right: 273px;
-  border: 1px solid white;
-  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
-}
-
-.container5 img {
-  margin-top: 5px;
-  margin-left: 130px;
-}
-
-.contant5 h3,
-p {
-  text-align: center;
-}
-
-.contant5 {
-  color: #ffffff;
-}
-
-.contant5 img {
-  height: 110px;
-  width: 110px;
+.image8 img {
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 450px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 footer {
